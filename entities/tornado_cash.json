@@ -33,7 +33,7 @@
       "applicable": true,
       "category": "Subject of major sanctions enforcement, partially reversed",
       "disclosure_flag": "Disclosed (publicly known)",
-      "summary": "August 2022 OFAC SDN listing; November 2024 Van Loon ruling vacated sanctions; March 21, 2025 official delisting; August 2025 Roman Storm conviction.",
+      "summary": "August 2022 OFAC SDN listing; November 2024 Van Loon ruling vacated sanctions; March 21, 2025 official delisting; August 2025 Roman Storm partial conviction (one count; jury deadlocked on more serious charges).",
       "detail": "August 8, 2022: OFAC added Tornado Cash smart contracts to SDN list. First sanctions action against immutable smart contract addresses. November 2024: Fifth Circuit ruled in Van Loon v. Treasury that immutable smart contracts cannot be 'property' under IEEPA, vacating sanctions. March 21, 2025: OFAC officially delisted Tornado Cash addresses from SDN list. August 2025: August 6, 2025: Roman Storm (Tornado Cash co-founder) convicted in SDNY on one count of conspiracy to operate an unlicensed money transmitting business; jury deadlocked on the two more serious charges (conspiracy to commit money laundering and conspiracy to violate sanctions, partial mistrial). Defense moved for acquittal in October 2025; sentencing pending. The conviction relates to Storm's individual conduct, not to the protocol's current sanctions status.",
       "sources": [
         "OFAC SDN list public records",
