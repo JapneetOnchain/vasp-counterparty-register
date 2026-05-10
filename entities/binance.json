@@ -1,0 +1,95 @@
+{
+  "entity_id": "binance",
+  "entity_name": "Binance (Binance Holdings Ltd. and affiliates)",
+  "entity_type": "centralized_exchange",
+  "year_founded": 2017,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "Broadest national-level license footprint in industry; MiCA CASP filed via Greece pending; VARA Dubai; ADGM; AUSTRAC; FIU-IND; JFSA.",
+      "detail": "United States: Operates only via separate Binance.US entity. Parent Binance.com restricted from serving US persons following 2023 DOJ settlement. European Union: National-level DASP registrations in France (AMF E2022-037), Italy (OAM PSV5), Spain, Lithuania, Poland; MiCA CASP application filed via Greece (HCMC) January 2026, pending. United Arab Emirates: Dubai VASP license from VARA (2024); ADGM FSRA approval for Binance.com global platform via three regulated entities, operational from January 2026. Japan: Regulated under JFSA. Australia: AUSTRAC DCE registration via InvestbyBit Pty Ltd. India: FIU-IND reporting entity registration. Thailand: Digital Asset Operator licenses via Gulf Binance.",
+      "sources": [
+        "https://www.binance.com/en-GB/legal/licenses",
+        "ADGM announcement, December 2025",
+        "Fortune, January 22, 2026, on Greek MiCA filing"
+      ],
+      "notes": "Broadest multi-jurisdictional license footprint by entity count. Breadth does not yet translate to unified MiCA CASP authorization. US standing constrained by 2023 DOJ settlement (Dimension 3)."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "Disclosed compliance with applicable regimes",
+      "disclosure_flag": "Disclosed",
+      "summary": "Implements Travel Rule across national-licensed entities; uses Notabene as primary technology partner.",
+      "detail": "Binance has implemented Travel Rule compliance across its national-licensed entities (France, Italy, Spain, Lithuania for EU; AUSTRAC for Australia; FIU-IND for India). Uses Notabene as primary Travel Rule technology partner. Public statements confirm IVMS 101 support. US-side compliance is limited because Binance.com does not serve US customers post-2023 settlement.",
+      "sources": [
+        "Binance public compliance disclosures",
+        "Notabene partnership announcements"
+      ],
+      "notes": "Travel Rule compliance footprint mirrors national licensing footprint. Strong in jurisdictions where licensed; gaps elsewhere."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Severe enforcement, resolved with ongoing constraints",
+      "disclosure_flag": "Disclosed",
+      "summary": "$4.3B DOJ settlement November 2023; CZ guilty plea and prison; ongoing 5-year compliance monitor through 2028.",
+      "detail": "November 2023: DOJ settlement, $4.3 billion combined penalties (DOJ, FinCEN, OFAC, CFTC). Binance Holdings pleaded guilty to BSA violations, sanctions violations, unlicensed money transmission. CZ (founder, Changpeng Zhao) personally pleaded guilty, served prison time, paid $50M personal fine, banned from operational role. Ongoing 5-year compliance monitorship (DOJ-imposed) through 2028. Multiple jurisdictional restrictions: UK FCA (2021 marketing prohibition), Netherlands DNB exit (2023), various national restrictions historically.",
+      "sources": [
+        "DOJ press release November 2023",
+        "FinCEN settlement order November 2023"
+      ],
+      "notes": "Largest single crypto exchange enforcement action in history. Compliance posture has materially strengthened post-settlement under new CEO Richard Teng. Ongoing DOJ monitor adds regulatory oversight layer that exceeds most peer exchanges."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": false,
+      "notes": "Not a stablecoin issuer."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct exposure to current OFAC SDN crypto addresses (12-month window).",
+      "detail": "Measured against Reference Set 1; same methodology as 5B; zero result.",
+      "sources": [
+        "Dune query, validated 2026-04-29"
+      ],
+      "notes": "Empirical."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct flows to/from Tornado Cash ETH pools (12-month window).",
+      "detail": "Measured against Dune-labeled 'binance%' address set. Zero direct outflows or inflows to/from the four primary Tornado Cash ETH pools in 12-month window.",
+      "sources": [
+        "Dune dashboard: https://dune.com/japneet/vasp-counterparty-register"
+      ],
+      "notes": "Empirical and reproducible."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Disclosed program with historical concerns",
+      "disclosure_flag": "Disclosed",
+      "summary": "Post-2023 DOJ settlement implemented mandatory global KYC; uses Sumsub and other vendors; under DOJ monitor through 2028.",
+      "detail": "Following 2023 DOJ settlement, Binance implemented mandatory KYC across all account tiers globally (including markets where prior policy was permissive). Enhanced KYC for high-volume accounts. Use of Sumsub and other vendors for verification. Pre-2023 KYC posture was materially weaker - DOJ settlement specifically cited 'willful failure to maintain an effective AML program' as basis for $4.3B penalty. Post-settlement KYC remediation under 5-year DOJ monitor through 2028.",
+      "sources": [
+        "DOJ settlement documents November 2023"
+      ],
+      "notes": "Major historical KYC/CDD deficiencies; post-settlement program is materially stronger but the historical context is publicly known and remains relevant for risk assessment."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Material historical incidents, current stability",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2017; SAFU insurance fund pioneer; covered $40M (2019) and $570M (2022) hack losses; orderly leadership transition CZ to Teng (2023).",
+      "detail": "Founded 2017; operating 9 years. 2019: $40M hot wallet hack (covered from Binance funds; SAFU insurance fund used for customer protection). 2022: $570M cross-chain bridge exploit (BSC bridge); Binance covered loss. 2023: Founder CZ stepped down as CEO following DOJ settlement; Richard Teng appointed CEO. Despite incidents, Binance's track record on covering customer losses has been strong (no customer haircuts).",
+      "sources": [
+        "Binance SAFU fund disclosures",
+        "Public hack response history"
+      ],
+      "notes": "Material historical incidents but customer protection track record is consistent. Leadership transition orderly."
+    }
+  }
+}

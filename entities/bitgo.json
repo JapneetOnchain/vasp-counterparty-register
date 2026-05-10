@@ -1,0 +1,93 @@
+{
+  "entity_id": "bitgo",
+  "entity_name": "BitGo (BitGo Bank & Trust, National Association)",
+  "entity_type": "custodian",
+  "year_founded": 2013,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "OCC national trust charter conditional approval (December 2025); New York Trust Company; South Dakota Trust Company; BaFin Germany; FinCEN MSB; Singapore presence; Switzerland.",
+      "detail": "United States: OCC conditional approval granted December 12, 2025 to convert state trust charter (BitGo Trust Company, South Dakota Division of Banking) to national trust bank (BitGo Bank & Trust, N.A.). FinCEN-registered MSB. New York Trust Company charter (2018). South Dakota Trust Company charter. European Union: BitGo Europe GmbH; operates under German BaFin authorization (crypto custody license, granted 2023). Singapore: Operating presence; specific licensing status to verify. Switzerland: BitGo Schweiz AG (FINMA-affiliated).",
+      "sources": [
+        "https://occ.gov/news-issuances/news-releases/2025/nr-occ-2025-125.html",
+        "BitGo public disclosures",
+        "https://www.bankingdive.com/news/occ-national-trust-bank-charter-approve-circle-paxos-ripple-bitgo-gould-crypto/807799/"
+      ],
+      "notes": "Among the December 2025 OCC conditional approval cohort. Like Paxos, conversion path (state trust to national trust) rather than de novo charter. German BaFin crypto custody license is distinct and provides EU-regulated custody capability separate from US oversight."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "Disclosed compliance with major regimes",
+      "disclosure_flag": "Disclosed",
+      "summary": "TRUST founding member; US Travel Rule via state and (pending) national trust charter.",
+      "detail": "TRUST founding member. US Travel Rule compliance via state and (pending) national trust charter.",
+      "sources": [
+        "TRUST consortium membership confirmed"
+      ],
+      "notes": "Same posture as Anchorage."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "No material enforcement",
+      "disclosure_flag": "Disclosed",
+      "summary": "No public enforcement actions of material scale.",
+      "detail": "No public enforcement actions of material scale against BitGo. Standard regulatory examination history; no consent orders or settlements publicly reported.",
+      "sources": [
+        "Public enforcement records search"
+      ],
+      "notes": "Clean enforcement record."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": false,
+      "notes": "Not a stablecoin issuer."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": true,
+      "category": "Insufficient public attribution",
+      "disclosure_flag": "Limited",
+      "summary": "Same as Anchorage — custodian attribution sparse.",
+      "detail": "Same methodology limitation.",
+      "sources": [
+        "Dune labels.addresses table coverage analysis"
+      ],
+      "notes": "Data gap."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": true,
+      "category": "Insufficient public attribution",
+      "disclosure_flag": "Limited",
+      "summary": "Same as 5A.",
+      "detail": "Same methodology limitation.",
+      "sources": [
+        "Dune labels.addresses table coverage analysis"
+      ],
+      "notes": "Data gap."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Comprehensive disclosed program",
+      "disclosure_flag": "Disclosed",
+      "summary": "State trust company / national trust bank supervision requires comprehensive KYC/AML; institutional-only.",
+      "detail": "State trust company (now national trust bank conditional approval) supervision requires comprehensive KYC/AML program. Institutional-only client base. Sanctions screening. No public consent orders or material findings on KYC/CDD program.",
+      "sources": [
+        "BitGo compliance disclosures"
+      ],
+      "notes": "Strong posture; less publicly visible audit trail than Anchorage but no negative signals."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Strong long-term track record",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2013; multi-signature wallet pioneer; one historical event (2016 Bitfinex hack as custody partner); no subsequent incidents.",
+      "detail": "Founded 2013; operating 13 years. One of the earliest institutional crypto custodians. Multi-signature wallet pioneer; the BitGo multi-sig technology underpins much of crypto custody industry. 2016: Bitfinex hack involved BitGo as the custody partner; led to industry-wide security architecture improvements but did not result in BitGo's dissolution. No subsequent major incidents. Leadership stability: CEO Mike Belshe (co-founder) has led continuously.",
+      "sources": [
+        "BitGo corporate history",
+        "Bitfinex 2016 incident public reporting"
+      ],
+      "notes": "Foundational role in institutional crypto custody industry. The Bitfinex 2016 incident is historical and pre-dates current security architecture; BitGo's response (architecture improvements, customer cooperation) was professional."
+    }
+  }
+}

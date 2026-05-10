@@ -1,0 +1,86 @@
+{
+  "entity_id": "paxos",
+  "entity_name": "Paxos (Paxos Trust Company, National Association)",
+  "entity_type": "stablecoin_issuer",
+  "year_founded": 2012,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "First crypto NYDFS trust charter (2015); OCC national trust charter conditional approval (December 2025); MAS Singapore MPI; FIN-FSA Finland; ADGM.",
+      "detail": "United States: Originally NYDFS limited-purpose trust company (first-ever issued for digital assets, 2015). Filed application August 2025 to convert NYDFS charter to OCC national trust charter. OCC conditional approval granted December 12, 2025 to convert from NYDFS state trust to national trust bank. All US-based activity now subject to OCC supervision upon conversion completion. European Union: Regulated by FIN-FSA (Finland) for European operations. Singapore: MAS Major Payment Institution license (first US-based blockchain infrastructure platform to receive this, 2022). UAE: ADGM FSRA-regulated.",
+      "sources": [
+        "https://www.paxos.com/newsroom/occ-approves-paxos-application-to-convert-to-occ-trust-paxos-to-complete-conversion-imminently-to-become-a-federally-regulated-blockchain-infrastructure-provider",
+        "OCC press release, December 12, 2025"
+      ],
+      "notes": "Pioneered the regulated stablecoin infrastructure model. Issuer of USDP and PYUSD (PayPal stablecoin). Conversion from NYDFS to OCC marks transition from state to federal US oversight."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "N/A as issuer; TRUST founding member",
+      "disclosure_flag": "Disclosed",
+      "summary": "TRUST founding member; Travel Rule applies to Paxos custody operations.",
+      "detail": "Same logic as Circle for the stablecoin issuance side. Paxos's custody and brokerage operations DO trigger Travel Rule applicability and Paxos is a TRUST founding member.",
+      "sources": [
+        "TRUST consortium membership confirmed"
+      ],
+      "notes": "TRUST membership covers Paxos's transactional operations."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Material enforcement, resolved",
+      "disclosure_flag": "Disclosed",
+      "summary": "February 2023 NYDFS BUSD wind-down directive (not a finding of misconduct); SEC Wells notice on BUSD did not result in formal action.",
+      "detail": "February 2023: NYDFS ordered Paxos to halt new issuance of BUSD (Binance USD stablecoin). Paxos discontinued BUSD issuance; existing BUSD remained redeemable. No penalty assessed; Paxos's NYDFS license remained in good standing. February 2023: SEC issued Wells notice to Paxos regarding BUSD as potential unregistered security. Wells notice did not result in formal enforcement action.",
+      "sources": [
+        "NYDFS BUSD wind-down public statements (2023)"
+      ],
+      "notes": "BUSD wind-down was a regulatory directive rather than a finding of Paxos misconduct. Paxos's regulatory standing remained strong throughout (evidenced by subsequent OCC charter approval in December 2025)."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": true,
+      "category": "Comprehensive transparency",
+      "disclosure_flag": "Disclosed",
+      "summary": "Monthly reserve reports for USDP, PYUSD, USDG; KPMG attestations (since February 2026, prior Enrome); FDIC placement networks plus private deposit insurance for cash reserves.",
+      "detail": "Reserve composition: Fully backed 1:1 by cash and US Treasury equivalents. Notably uses sophisticated deposit insurance strategies - Paxos historically used FDIC placement networks (distributing deposits across multiple insured banks in $250K blocks) plus private deposit insurance to provide protection beyond the standard FDIC $250K cap. Of $270M in cash reserves backing USDP at one historical reporting point, $72M was privately insured. Attestation cadence: Monthly reserve reports for Paxos-issued digital assets (USDP, PYUSD, USDG). USDG attestations issued by KPMG LLP (since February 27, 2026); prior attestations by Enrome LLP. Custodian disclosure: Sophisticated banking arrangements via FDIC placement networks; specific bank-by-bank breakdown more granular than peer issuers. Regulatory framework compliance: NYDFS supervision (since 2015); OCC conditional approval December 2025. MAS Major Payment Institution license. FIN-FSA (Finland). ADGM (Abu Dhabi).",
+      "sources": [
+        "https://www.paxos.com/usdp-transparency",
+        "https://www.paxos.com/usdg-transparency",
+        "CoinDesk historical reporting on Paxos deposit insurance practices"
+      ],
+      "notes": "Comparable transparency to Circle in formal posture, with distinctive emphasis on deposit insurance sophistication. Paxos issues PYUSD (PayPal stablecoin), USDP (Pax Dollar), and USDG (Global Dollar) — multi-stablecoin issuance under unified regulatory framework. KPMG transition (February 2026) from Enrome upgrades attestation provider credibility."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": false,
+      "notes": "Issuer, not transactor."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": false,
+      "notes": "Issuer, not transactor."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Issuer KYC framework (institutional only)",
+      "disclosure_flag": "Disclosed",
+      "summary": "Same structural pattern as Circle; institutional KYC for direct counterparties; retail KYC at distribution partners.",
+      "detail": "Same structural pattern as Circle. Paxos KYC applies to direct counterparties (institutional clients minting/redeeming USDP, PYUSD, USDG). Retail KYC happens at PayPal (for PYUSD), Binance historically (for BUSD), or other distribution partners. Sanctions screening posture aligned with NYDFS supervision standards historically; will align with OCC standards post-conversion.",
+      "sources": [
+        "Paxos compliance disclosures"
+      ],
+      "notes": "Same as Circle."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Strong track record",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2012 (as itBit); rebranded 2018; no major incidents; orderly BUSD wind-down (2023).",
+      "detail": "Founded 2012 (as itBit); rebranded to Paxos 2018. No major operational incidents. BUSD wind-down (February 2023) was a regulatory directive (NYDFS), not an operational failure. Leadership stability: CEO Charles Cascarilla (co-founder) has led continuously.",
+      "sources": [
+        "Paxos corporate history"
+      ],
+      "notes": "Clean operational record; the BUSD episode actually demonstrated orderly regulatory cooperation rather than operational deficiency."
+    }
+  }
+}

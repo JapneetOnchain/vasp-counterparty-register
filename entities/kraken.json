@@ -1,0 +1,93 @@
+{
+  "entity_id": "kraken",
+  "entity_name": "Kraken (Payward, Inc. and affiliates)",
+  "entity_type": "centralized_exchange",
+  "year_founded": 2011,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "FinCEN MSB; Wyoming SPDI; SEC broker-dealer; MiCA CASP via CBI Ireland (June 2025); FINTRAC; AUSTRAC; CNV Argentina.",
+      "detail": "United States: FinCEN-registered MSB (Payward Interactive, Inc., MSB Reg No. 31000270997766); Wyoming-chartered Special Purpose Depository Institution via subsidiary Kraken Financial; Kraken Securities LLC SEC-registered broker-dealer and FINRA member; Kraken Adviser LLC SEC-registered investment adviser. SEC dropped 2023 civil lawsuit against Kraken in March 2025. European Union: MiCA CASP authorization from Central Bank of Ireland (issued June 25, 2025) via Payward Europe Solutions Limited (Reg No. C468360) and Payward Global Solutions Limited (Reg No. C559106); covers custody, exchange, order execution, reception/transmission of orders, and operation of trading platform. Passporting active across all 30 EEA member states (live since August 2025). Plus MiFID and EMI licenses via Payward Ireland Limited (Reg No. C453020). Canada: Restricted Dealer (OSC and provincial); FINTRAC MSB. Australia: AUSTRAC DCE via Bit Trade Pty Ltd; AFSL 545124. Argentina: CNV VASP.",
+      "sources": [
+        "https://support.kraken.com/articles/where-is-kraken-licensed-or-regulated",
+        "https://blog.kraken.com/news/mica-license-central-bank-of-ireland",
+        "https://blog.kraken.com/news/all-30-eea-countries-mica"
+      ],
+      "notes": "Most granular regulatory disclosure page in the slice — itemizes each entity, license type, and registration number per jurisdiction. Highest disclosure transparency."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "Disclosed compliance with major regimes",
+      "disclosure_flag": "Disclosed",
+      "summary": "TRUST consortium founding member; FinCEN, EU TFR, MAS, AUSTRAC compliance.",
+      "detail": "Founding member of TRUST consortium. Compliance with FinCEN Travel Rule (US), EU TFR (via Ireland MiCA entities), MAS Travel Rule (Singapore-adjacent operations via Kraken affiliates), AUSTRAC Travel Rule. IVMS 101 support.",
+      "sources": [
+        "TRUST consortium membership confirmed"
+      ],
+      "notes": "Same posture as Coinbase. TRUST membership is the strongest publicly-verifiable Travel Rule compliance signal."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Material enforcement, partially resolved",
+      "disclosure_flag": "Disclosed",
+      "summary": "2023 SEC $30M staking settlement; 2023 SEC suit dismissed March 2025; 2022 OFAC $362K Iran-related settlement.",
+      "detail": "2023: SEC settlement, $30 million penalty plus discontinuation of US staking-as-a-service program (Kraken admitted no wrongdoing in operational settlement). 2023: SEC separately filed civil suit alleging unregistered securities exchange operation; suit dismissed in March 2025 following SEC leadership transition. 2022: OFAC settlement, $362,158 penalty for sanctions violations involving Iranian users.",
+      "sources": [
+        "SEC settlement documents (2023)",
+        "OFAC enforcement record (2022)"
+      ],
+      "notes": "Lighter enforcement posture than Coinbase or Binance. Iran-related OFAC settlement is a real signal but small in monetary terms and pre-dates current compliance leadership."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": false,
+      "notes": "Not a stablecoin issuer."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct exposure to current OFAC SDN crypto addresses (12-month window).",
+      "detail": "Measured; zero result.",
+      "sources": [
+        "Dune query, validated 2026-04-29"
+      ],
+      "notes": "Empirical."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct flows to/from Tornado Cash ETH pools (12-month window).",
+      "detail": "Measured against Dune-labeled 'kraken%' address set. Zero direct flows in either direction in 12-month window.",
+      "sources": [
+        "Dune dashboard: https://dune.com/japneet/vasp-counterparty-register"
+      ],
+      "notes": "Empirical."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Comprehensive disclosed program",
+      "disclosure_flag": "Disclosed",
+      "summary": "Tiered KYC; institutional KYB; OFAC sanctions screening; mandatory at all tiers since 2018+.",
+      "detail": "Tiered KYC structure with progressively stricter verification for higher account limits; mandatory at all tiers since 2018+ (no anonymous trading on Kraken historically); institutional KYB for entity accounts; sanctions and PEP screening; ongoing transaction monitoring; OFAC sanctions screening explicitly enforced (2022 OFAC Iran-related settlement involved historical edge cases, not systemic program failure).",
+      "sources": [
+        "Kraken public compliance disclosures"
+      ],
+      "notes": "Strong publicly-disclosed posture; less enforcement-touched than Coinbase or Binance on KYC specifically."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Strong long-term track record",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2011 (longest in slice); no major customer-funds hack; Wyoming SPDI bank-grade structure.",
+      "detail": "Founded 2011; operating 15 years (longest in the slice). No major customer-funds hack in operating history. Wyoming SPDI subsidiary provides bank-grade operational structure. Leadership stability: Co-founder Jesse Powell stepped back from CEO role 2022; David Ripley CEO since 2023.",
+      "sources": [
+        "Kraken corporate history"
+      ],
+      "notes": "Cleanest operational record among major exchanges; longest operating history in the slice."
+    }
+  }
+}

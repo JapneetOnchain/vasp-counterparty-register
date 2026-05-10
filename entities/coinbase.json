@@ -1,0 +1,96 @@
+{
+  "entity_id": "coinbase",
+  "entity_name": "Coinbase (Coinbase Global, Inc.)",
+  "entity_type": "centralized_exchange",
+  "year_founded": 2012,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "NYDFS BitLicense holder; MiCA CASP via Luxembourg CSSF; FCA UK; MAS Singapore; broad multi-state US authorization.",
+      "detail": "United States: NYDFS BitLicense (granted January 17, 2017); New York money transmitter license; state-level money transmitter licenses across 49+ US states; FinCEN-registered Money Services Business. European Union: MiCA CASP authorization issued by Luxembourg CSSF (mid-2025), passporting across all 27 EU member states via Coinbase Luxembourg, S.A.; prior national licenses in Germany, France, Ireland, Italy, Netherlands, Spain. United Kingdom: Registered with FCA under the UK MLR regime. Singapore: MAS Major Payment Institution license. Canada: Restricted dealer registration. Other: Operates across multiple Asian and Latin American jurisdictions.",
+      "sources": [
+        "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1701172",
+        "https://www.coinbase.com/blog/coinbase-secures-mica-licence-a-milestone-in-europes-crypto-evolution",
+        "https://help.coinbase.com/en/coinbase/other-topics/other/mica-cblu"
+      ],
+      "notes": "Most comprehensively documented multi-jurisdiction regulatory authorization in the slice. Notably did NOT receive OCC national trust charter conditional approval in December 2025."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "Disclosed compliance with major regimes",
+      "disclosure_flag": "Disclosed",
+      "summary": "TRUST consortium founding member; complies with FinCEN Travel Rule, EU TFR, MAS Travel Rule.",
+      "detail": "Coinbase complies with FinCEN Travel Rule (US, $3,000 threshold) and EU Transfer of Funds Regulation (TFR, effective December 30, 2024, EUR 1,000 threshold for crypto). MAS Travel Rule compliance for Singapore operations. Founding member of Travel Rule Universal Solution Technology (TRUST) consortium. IVMS 101 message format support.",
+      "sources": [
+        "TRUST consortium membership confirmed via TRUST press materials",
+        "EU TFR effective date confirmed via EBA guidelines"
+      ],
+      "notes": "TRUST founding member status is the strongest publicly-verifiable Travel Rule compliance signal."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Material enforcement, resolved",
+      "disclosure_flag": "Disclosed",
+      "summary": "2023 NYDFS $100M settlement; 2023 SEC suit dismissed early 2025; 2020 CFTC $6.5M settlement.",
+      "detail": "2023: SEC filed civil suit alleging unregistered securities exchange operation; suit settled and dismissed in early 2025 following SEC leadership transition; Coinbase did not pay penalty, did not admit wrongdoing. 2023: NYDFS settlement, $100 million penalty for AML/compliance program deficiencies. 2020: CFTC settlement, $6.5 million for reporting/wash trade issues.",
+      "sources": [
+        "NYDFS public consent orders (2023)",
+        "SEC v Coinbase docket (2023-2025)"
+      ],
+      "notes": "Most enforcement-touched of the major US-licensed exchanges, but resolved without admission of wrongdoing on the largest case (SEC). Strong post-settlement compliance posture."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": false,
+      "notes": "Not a stablecoin issuer."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct on-chain exposure to current OFAC SDN crypto addresses across 12-month measurement window.",
+      "detail": "Measured against Reference Set 1 (OFAC SDN ETH and Tron addresses, snapshot 2026-04-29). No direct (1-hop) transfers between Coinbase publicly-labeled addresses and currently sanctioned crypto addresses observed in 12-month window.",
+      "sources": [
+        "Dune query against ethereum.transactions joined with labels.addresses, validated 2026-04-29"
+      ],
+      "notes": "Same address set used for Dimension 5B; same methodology; same empirical zero result."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct flows to/from four primary Tornado Cash ETH pools across 12-month measurement window.",
+      "detail": "Measured against Dune-labeled 'Coinbase 1' through 'Coinbase 179' address set (n=180+); active hot wallet participation confirmed via diagnostic query. Zero direct outflows or inflows to/from any of the four primary Tornado Cash ETH pools in 12-month window.",
+      "sources": [
+        "Dune dashboard: https://dune.com/japneet/vasp-counterparty-register"
+      ],
+      "notes": "Methodology validated via independent query showing 4,029 ETH in deposits to Tornado Cash from non-exchange-attributed sources during the same window. Coinbase finding is empirical and reproducible."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Comprehensive disclosed program",
+      "disclosure_flag": "Disclosed",
+      "summary": "Mandatory KYC at all account tiers; institutional KYB; full sanctions and PEP screening.",
+      "detail": "Mandatory KYC at all account tiers (no anonymous trading); enhanced verification for higher-volume tiers; institutional KYB for entity accounts; full sanctions screening; PEP screening; ongoing transaction monitoring; 2023 NYDFS settlement specifically addressed prior CDD program deficiencies and Coinbase has invested heavily in remediation since. Public statements confirm use of Chainalysis KYT, sanctions screening across multiple lists (OFAC, UN, EU, UK), and ongoing customer risk reassessment.",
+      "sources": [
+        "NYDFS 2023 consent order details",
+        "Coinbase public compliance disclosures"
+      ],
+      "notes": "Strongest publicly-disclosed KYC/CDD posture in the slice on US-regulated terms. Post-2023 NYDFS settlement remediation visible."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Strong long-term track record",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2012; NYSE-listed since 2021; no major customer-funds hack; stable leadership.",
+      "detail": "Founded 2012; operating 14 years. NYSE-listed (COIN) since 2021 - public reporting cadence and SOX controls. No major customer-funds hack in operating history; security record materially better than industry peers. 2023 brief Q1 outage during high volatility; resolved without customer fund loss. Leadership stability: CEO Brian Armstrong has led continuously since founding.",
+      "sources": [
+        "Coinbase SEC filings (10-K, 10-Q, 8-K)",
+        "Public incident history"
+      ],
+      "notes": "Strongest operational track record in the slice for a centralized exchange."
+    }
+  }
+}

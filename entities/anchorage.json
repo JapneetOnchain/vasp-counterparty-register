@@ -1,0 +1,92 @@
+{
+  "entity_id": "anchorage",
+  "entity_name": "Anchorage Digital (Anchorage Digital Bank, N.A.)",
+  "entity_type": "custodian",
+  "year_founded": 2017,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "First federally-chartered crypto bank (OCC, January 2021); FinCEN MSB; SEC-qualified custodian; expanding APAC presence including Singapore.",
+      "detail": "United States: OCC national trust charter issued January 13, 2021 (FIRST federally-chartered crypto bank). FinCEN-registered MSB. SEC-qualified custodian status. Anchorage Digital Bank, N.A. is the federally-chartered subsidiary; Anchorage Hold, LLC is a state-chartered counterpart. European Union: Operates via European subsidiary; authorization details available on Anchorage corporate disclosures. Singapore: Recognized Market Operator (RMO) license application; expanding APAC presence as of 2025-2026.",
+      "sources": [
+        "https://www.anchorage.com",
+        "OCC announcement of January 13, 2021 charter approval"
+      ],
+      "notes": "First and only federally-chartered crypto bank as of pre-2025 OCC actions. Distinguished from the December 2025 OCC conditional approval batch (Circle, Ripple, BitGo, Fidelity, Paxos) by virtue of having received its national trust charter four years earlier. Anchorage's federal charter is unconditional and pre-existing, whereas the December 2025 cohort received conditional approvals pending final authorization."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "Disclosed compliance with major regimes",
+      "disclosure_flag": "Disclosed",
+      "summary": "TRUST founding member; US Travel Rule via OCC supervision.",
+      "detail": "TRUST founding member. US Travel Rule compliance via OCC-supervised national trust bank status.",
+      "sources": [
+        "TRUST consortium membership confirmed"
+      ],
+      "notes": "Strongest possible Travel Rule posture for a custodian — federally-chartered + TRUST member."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Material enforcement, resolved",
+      "disclosure_flag": "Disclosed",
+      "summary": "April 2022 OCC consent order on AML deficiencies; no monetary penalty; consent order terminated 2024.",
+      "detail": "April 2022: OCC consent order issued against Anchorage Digital Bank for AML program deficiencies. No monetary penalty. Anchorage required to remediate program; consent order terminated in 2024 following demonstrated compliance improvements.",
+      "sources": [
+        "OCC public consent order (April 2022)",
+        "Consent order termination (2024)"
+      ],
+      "notes": "Material because OCC consent orders are serious supervisory actions; mitigated because consent order was terminated and no penalty was assessed. Read as a regulator using its supervisory tools to drive program improvement."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": false,
+      "notes": "Not a stablecoin issuer."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": true,
+      "category": "Insufficient public attribution",
+      "disclosure_flag": "Limited",
+      "summary": "Custodian address attribution sparse on Dune; cannot meaningfully measure.",
+      "detail": "Dune label coverage for institutional custodians is sparse. Anchorage's institutional client wallets are not comprehensively labeled in the public attribution layer. Measurement under this dimension would not produce a defensible result given the data limitations.",
+      "sources": [
+        "Dune labels.addresses table coverage analysis"
+      ],
+      "notes": "Data gap acknowledged in methodology."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": true,
+      "category": "Insufficient public attribution",
+      "disclosure_flag": "Limited",
+      "summary": "Same as 5A — public attribution sparse.",
+      "detail": "Same methodology limitation as 5A.",
+      "sources": [
+        "Dune labels.addresses table coverage analysis"
+      ],
+      "notes": "Data gap acknowledged."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Comprehensive disclosed program",
+      "disclosure_flag": "Disclosed",
+      "summary": "Federal trust bank-level KYC/AML required by OCC supervision; institutional-only client base.",
+      "detail": "Federal trust bank-level KYC/AML program required by OCC supervision. Institutional-only client base (no retail). Enhanced due diligence for all clients. Sanctions and PEP screening. 2022 OCC consent order specifically addressed earlier AML program deficiencies; post-remediation program audited through consent order termination.",
+      "sources": [
+        "OCC supervision standards"
+      ],
+      "notes": "Federal-bank-grade KYC/CDD posture, post-remediation."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Strong track record",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2017; first federally-chartered crypto bank (2021); 2022 OCC consent order remediated; no customer-asset incidents.",
+      "detail": "Founded 2017; operating 9 years. First federally-chartered crypto bank (January 2021). 2022 OCC consent order was operational AML program issue, since remediated. No customer-asset incidents. Institutional-only client base; smaller scale than retail-facing exchanges.",
+      "sources": [
+        "Anchorage corporate history"
+      ],
+      "notes": "Strong track record post-OCC charter; the 2022 consent order is the meaningful event but was remediated through standard supervisory process."
+    }
+  }
+}

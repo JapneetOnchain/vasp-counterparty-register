@@ -1,0 +1,87 @@
+{
+  "entity_id": "tornado_cash",
+  "entity_name": "Tornado Cash protocol",
+  "entity_type": "decentralized_protocol",
+  "year_founded": 2019,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "No identifiable major-jurisdiction authorization (by design)",
+      "disclosure_flag": "Not applicable — decentralized smart contract protocol",
+      "summary": "OFAC sanctions vacated March 2025; co-founder Roman Storm convicted August 2025; no corporate issuer to license.",
+      "detail": "United States: Tornado Cash smart contracts were OFAC-sanctioned August 8, 2022. Sanctions were vacated by court ruling in Van Loon v. Department of Treasury (Fifth Circuit) and Tornado Cash addresses were officially DELISTED from the OFAC SDN list on March 21, 2025. Founder Roman Storm convicted on conspiracy and money transmission charges in August 2025 (separate from contract sanctions question). European Union: No corporate issuer to license. Protocol use within EU jurisdictions subject to general MiCA and AML rules. Decentralized governance: Protocol governance via TORN token holders; no centralized issuer or operator following 2023 OFAC enforcement actions and DAO restructuring.",
+      "sources": [
+        "OFAC SDN list delisting confirmation, March 21, 2025",
+        "Van Loon v. Department of Treasury ruling (Fifth Circuit, 2024)",
+        "Roman Storm conviction reporting (multiple sources, August 2025)"
+      ],
+      "notes": "Included in the slice as a contrast/calibration entity, NOT as a counterparty a TradFi or fintech compliance program would consider transacting with directly. Critical distinction: contract addresses are NOT currently OFAC-sanctioned (delisted March 2025) but ARE measured under Dimension 5B as recognized mixer infrastructure regardless of current sanctions status."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "N/A — decentralized smart contract, no VASP",
+      "disclosure_flag": "Not applicable",
+      "summary": "Cannot comply with Travel Rule because no centralized VASP exists to do originator/beneficiary data transmission.",
+      "detail": "Tornado Cash protocol cannot comply with Travel Rule because there is no centralized VASP to do the originator/beneficiary data transmission. This is precisely the structural reason mixers are flagged in compliance frameworks regardless of current sanctions status.",
+      "sources": [
+        "Tornado Cash protocol architecture"
+      ],
+      "notes": "Structural impossibility of Travel Rule compliance is a defining property of decentralized mixers."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Subject of major sanctions enforcement, partially reversed",
+      "disclosure_flag": "Disclosed (publicly known)",
+      "summary": "August 2022 OFAC SDN listing; November 2024 Van Loon ruling vacated sanctions; March 21, 2025 official delisting; August 2025 Roman Storm conviction.",
+      "detail": "August 8, 2022: OFAC added Tornado Cash smart contracts to SDN list. First sanctions action against immutable smart contract addresses. November 2024: Fifth Circuit ruled in Van Loon v. Treasury that immutable smart contracts cannot be 'property' under IEEPA, vacating sanctions. March 21, 2025: OFAC officially delisted Tornado Cash addresses from SDN list. August 2025: Roman Storm (Tornado Cash co-founder) convicted in SDNY on conspiracy and money transmission charges; the conviction relates to Storm's individual conduct, not to the protocol's current sanctions status.",
+      "sources": [
+        "OFAC SDN list public records",
+        "Van Loon v. Treasury court documents"
+      ],
+      "notes": "The clearest example in crypto compliance history of regulatory action against decentralized infrastructure. The sanctions delisting plus founder conviction creates a unique compliance posture: protocol contracts are not currently sanctioned, but interaction is still treated as a high-risk indicator by all major compliance frameworks (consistent with FATF mixer guidance)."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": false,
+      "notes": "Not a stablecoin issuer."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": false,
+      "notes": "N/A — Tornado Cash protocol contracts are not currently on OFAC SDN list (delisted March 2025); measured separately under 5B as mixer infrastructure."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": true,
+      "category": "IS the reference set — not measured against",
+      "disclosure_flag": "Reference",
+      "summary": "Tornado Cash protocol IS the mixer infrastructure being measured under Dimension 5B; this entity is the reference, not a measurement subject.",
+      "detail": "Aggregate inflows to the four primary Tornado Cash ETH pools confirmed at approximately 4,029 ETH over the 12-month measurement window from non-exchange-attributed sources. This is the operational baseline against which exchange exposure is measured.",
+      "sources": [
+        "Dune dashboard: https://dune.com/japneet/vasp-counterparty-register"
+      ],
+      "notes": "The pools' continued operational activity despite the March 2025 sanctions delisting and August 2025 founder conviction is itself a substantive empirical finding."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "No KYC by design",
+      "disclosure_flag": "Not applicable",
+      "summary": "Privacy-preserving smart contract intentionally severs depositor-withdrawer link; no centralized operator to perform KYC.",
+      "detail": "Tornado Cash protocol is a privacy-preserving smart contract that intentionally severs the link between depositor and withdrawer addresses. There is no KYC layer because there is no centralized operator to perform KYC.",
+      "sources": [
+        "Tornado Cash protocol architecture documentation"
+      ],
+      "notes": "This is the structural reason mixers are categorically incompatible with regulated counterparty status. The 'no KYC' property is not a deficiency to be remediated — it is the protocol's intended function. Regulatory frameworks that require KYC at the VASP layer (FATF, FinCEN, MiCA) cannot be satisfied by a decentralized mixer protocol."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Decentralized infrastructure with adversarial regulatory history",
+      "disclosure_flag": "Disclosed",
+      "summary": "Protocol launched 2019; OFAC sanctions and delisting cycle; founder conviction; protocol contracts continue operating throughout regulatory turmoil.",
+      "detail": "Protocol launched 2019. August 2022: OFAC sanctions on smart contracts (subsequently vacated and delisted March 2025). August 2025: Co-founder Roman Storm convicted on conspiracy/money transmission charges. The protocol contracts have continued to function operationally throughout the regulatory turmoil because they are immutable smart contracts. No 'leadership' in conventional sense post-2023 DAO restructuring.",
+      "sources": [
+        "Tornado Cash protocol history",
+        "Roman Storm conviction documents"
+      ],
+      "notes": "Operational track record in the conventional sense doesn't apply — the protocol works as designed regardless of regulatory developments. The regulatory adversarial history is the relevant signal for compliance counterparty assessment."
+    }
+  }
+}

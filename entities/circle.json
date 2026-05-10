@@ -1,0 +1,89 @@
+{
+  "entity_id": "circle",
+  "entity_name": "Circle (Circle Internet Group, Inc.)",
+  "entity_type": "stablecoin_issuer",
+  "year_founded": 2013,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "First-ever NYDFS BitLicense (2015); MiCA-compliant via French ACPR (2024); OCC national trust charter conditional approval (December 2025); MAS, ADGM, Bermuda DABA.",
+      "detail": "United States: NYDFS BitLicense (first-ever issued, 2015); FinCEN-registered MSB; OCC conditional approval for national trust charter (First National Digital Currency Bank, N.A.) granted December 12, 2025, pending final approval. NYSE-listed (CRCL). Aligned with GENIUS Act framework (signed July 2025). European Union: First global stablecoin issuer compliant with MiCA. Electronic Money Institution license from French ACPR (Circle Internet Financial Europe SAS) issued 2024. USDC and EURC issued under MiCA-compliant framework. United Kingdom: E-money / payments licenses. Singapore: Major Payment Institution license from MAS. Bermuda: Digital Asset Business Act license. Canada: First global stablecoin issuer to enter undertaking with Canadian Securities Administrators for Value-Referenced Crypto Asset requirements. UAE: ADGM FSRA money services provider license (2025).",
+      "sources": [
+        "https://www.circle.com/pressroom/circle-receives-conditional-approval-from-occ-for-national-trust-charter",
+        "https://www.circle.com/pressroom/circle-is-first-global-stablecoin-issuer-to-comply-with-mica-eus-landmark-crypto-law",
+        "https://occ.gov/news-issuances/news-releases/2025/nr-occ-2025-125.html"
+      ],
+      "notes": "Most comprehensively regulated stablecoin issuer globally. First-mover advantage on multiple major regulatory milestones. OCC conditional approval establishes federal-plus-state dual oversight model unique among stablecoin issuers as of late 2025."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "N/A as issuer; TRUST founding member",
+      "disclosure_flag": "Disclosed",
+      "summary": "TRUST consortium founding member; Travel Rule applies to VASPs handling USDC, not to Circle as issuer.",
+      "detail": "Circle as stablecoin issuer mints/redeems USDC and EURC against Circle Mint accounts but is not the originating or beneficiary VASP for ordinary crypto transfers. Travel Rule applies to the VASPs (exchanges, wallets, custodians) that handle USDC transfers, not to Circle as the issuer. Circle DOES participate in TRUST as a founding member, indicating institutional commitment to the Travel Rule ecosystem.",
+      "sources": [
+        "TRUST consortium membership confirmed"
+      ],
+      "notes": "Structural N/A; TRUST membership is the relevant institutional signal."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "No material enforcement",
+      "disclosure_flag": "Disclosed",
+      "summary": "No public regulatory enforcement actions of material scale.",
+      "detail": "No public regulatory enforcement actions of material scale against Circle. Tornado Cash sanctions (August 2022) caused some USDC blacklisting controversy at the time, but Circle's response (compliant blacklisting per OFAC requirement) was generally viewed as appropriate.",
+      "sources": [
+        "Public enforcement records search"
+      ],
+      "notes": "Cleanest enforcement record in the slice. Distinguishes Circle as institutional counterparty for risk-averse buyers."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": true,
+      "category": "Comprehensive transparency",
+      "disclosure_flag": "Disclosed",
+      "summary": "Daily reserve disclosures via BlackRock; monthly Big Four attestations (Deloitte); annual full audit; G-SIB custodians (BNY Mellon).",
+      "detail": "Reserve composition: Fully backed 1:1 by cash and short-duration US Treasury securities. Majority held in the Circle Reserve Fund (USDXX), an SEC-registered 2a-7 government money market fund managed by BlackRock, with daily portfolio reporting via BlackRock. Remainder held in cash at G-SIB (Global Systemically Important Bank) custodians. Attestation cadence: Weekly USDC reserve disclosures with mint/burn flows; monthly third-party attestations by Big Four (Deloitte & Touche LLP since fiscal 2022, also Grant Thornton historically). Audit status: Full annual audit by Deloitte; monthly attestations on top. Custodian disclosure: Specific banking partners disclosed (BNY Mellon as primary G-SIB custodian post-SVB; BlackRock as money market fund manager). Regulatory framework compliance: First MiCA-compliant stablecoin issuer (July 2024). Aligned with GENIUS Act. NYDFS-supervised. OCC conditional approval (December 2025).",
+      "sources": [
+        "https://www.circle.com/transparency",
+        "AlphaSense Circle primer (2026)",
+        "CoinLaw stablecoin reserves transparency 2026 report",
+        "Eco USDC guide (April 2026)"
+      ],
+      "notes": "Highest reserve transparency posture in the slice and arguably the industry. Daily reserve snapshots plus monthly attestation plus annual full audit creates triple-layered verification rare in stablecoin space. Post-SVB lesson learned: Circle moved cash reserves from mid-size banks to G-SIB custodians."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": false,
+      "notes": "Issuer, not transactor. Circle freezes USDC at OFAC-flagged addresses per requirement; the reverse direction (Circle holding sanctioned crypto) is structurally impossible."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": false,
+      "notes": "Issuer, not transactor. Out of scope for direct mixer exposure measurement."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Issuer KYC framework (institutional only)",
+      "disclosure_flag": "Disclosed",
+      "summary": "Circle Mint customers undergo KYC/KYB per US BSA, MiCA, MAS; retail USDC users KYC at exchange layer.",
+      "detail": "Circle Mint customers (institutional users who mint/redeem USDC against fiat) undergo Circle KYC/KYB per US BSA, MiCA, MAS, and other applicable jurisdictions. Retail USDC users do not interact directly with Circle; they acquire USDC through exchanges (which perform KYC) or other counterparties. Sanctions screening: Circle has frozen USDC at OFAC-flagged addresses in coordination with US authorities (most notably Tornado Cash-related freezes in August 2022).",
+      "sources": [
+        "Circle compliance disclosures"
+      ],
+      "notes": "Strong issuer-side KYC for direct counterparties. Retail-facing KYC happens at the exchange/custodian layer where USDC is acquired/transferred."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Strong track record with one significant stress event",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2013; NYSE-listed since June 2025; SVB depeg event March 2023 well-handled; no smart contract exploits.",
+      "detail": "Founded 2013; operating 13 years. NYSE-listed (CRCL) since June 2025. March 2023: $3.3B of USDC reserves trapped at Silicon Valley Bank during bank failure; USDC briefly depegged to ~$0.88 before SVB depositor backstop was confirmed. Circle subsequently moved cash reserves to G-SIB custodians (BNY Mellon). Leadership stability: CEO Jeremy Allaire (co-founder) has led continuously. No issuer-side smart contract exploits or stablecoin failures.",
+      "sources": [
+        "Circle SEC filings",
+        "SVB event public reporting"
+      ],
+      "notes": "SVB event is the meaningful stress test. Response was appropriate (moved to G-SIB custodians, transparent disclosure). Post-event reserve management is structurally stronger."
+    }
+  }
+}

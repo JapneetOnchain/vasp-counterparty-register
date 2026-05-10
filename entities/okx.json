@@ -1,0 +1,94 @@
+{
+  "entity_id": "okx",
+  "entity_name": "OKX (OKX Group / Aux Cayes Fintech Co. Ltd.)",
+  "entity_type": "centralized_exchange",
+  "year_founded": 2017,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Comprehensive multi-jurisdiction",
+      "disclosure_flag": "Disclosed",
+      "summary": "MiCA CASP via Malta MFSA (January 2025); MiFID II derivatives (March 2025); MFSA PI license (February 2026); VARA Dubai; SCB Bahamas; US restricted post-DOJ settlement.",
+      "detail": "United States: Limited authorization. OKX restructured US-facing operations following 2024 DOJ settlement. Currently operates US-restricted version of platform. European Union: MiCA CASP license issued by Malta Financial Services Authority on January 27, 2025; among the first global exchanges to receive MiCA pre-authorization (February 2025) followed by full license. Passporting active across 28+ EEA countries via Malta hub. Plus MiFID II derivatives license (March 2025) and Payment Institution license from MFSA (February 2026) covering stablecoin payment services under PSD2. United Arab Emirates: Full VASP license from Dubai VARA (granted 2024). Bahamas: Securities Commission of the Bahamas registration.",
+      "sources": [
+        "https://www.okx.com/en-us/learn/mica-pre-authorization",
+        "https://www.okx.com/en-eu/learn/our-mica-license",
+        "https://www.coindesk.com/policy/2026/02/16/okx-snags-european-payments-license-for-stablecoin-and-crypto-card-expansion"
+      ],
+      "notes": "ESMA peer review of Malta MFSA's authorizations (2025) raised general regulatory-arbitrage concerns about Malta's review standards — contextual but does not invalidate the license."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "Disclosed compliance with applicable regimes",
+      "disclosure_flag": "Disclosed",
+      "summary": "Travel Rule via Malta CASP (EU TFR), VARA UAE, Bahamas SCB.",
+      "detail": "Travel Rule compliance via Malta CASP entity (EU TFR), VARA (UAE Travel Rule), Bahamas SCB Travel Rule. US Travel Rule no longer relevant post-DOJ settlement (US operations restricted). Specific Travel Rule technology vendor partnerships not publicly disclosed in the same detail as Coinbase/Kraken.",
+      "sources": [
+        "OKX MiCA license details"
+      ],
+      "notes": "Compliance posture is presumed strong given fresh MiCA license and ongoing 3-year DOJ compliance monitor (until 2027); limited public disclosure detail."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Severe enforcement, ongoing monitorship",
+      "disclosure_flag": "Disclosed",
+      "summary": "February 24, 2025: $504M DOJ settlement; guilty plea to unlicensed money transmission; 3-year DOJ monitor through 2027.",
+      "detail": "February 24, 2025: Aux Cayes Fintech Co. (OKX operator entity) pleaded guilty to operating an unlicensed money transmitting business in violation of US BSA. $504 million penalty ($420.3M forfeiture + $84.4M criminal fine). DOJ identified OKX as facilitating over $5 billion in suspicious transactions; over $1 trillion in US-based transactions while unlicensed (2018-2024). 3-year compliance monitor (DOJ-imposed) through 2027.",
+      "sources": [
+        "DOJ press release, February 24, 2025",
+        "OKX official statement, February 24, 2025"
+      ],
+      "notes": "Most recent major exchange criminal plea. The 3-year monitor through 2027 means OKX is currently under active DOJ oversight — paradoxically, this can be read as a positive compliance signal from a counterparty risk perspective for the duration of the monitor."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": false,
+      "notes": "Not a stablecoin issuer."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct exposure to current OFAC SDN crypto addresses (12-month window).",
+      "detail": "Measured; zero result.",
+      "sources": [
+        "Dune query, validated 2026-04-29"
+      ],
+      "notes": "Empirical."
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": true,
+      "category": "Negligible exposure",
+      "disclosure_flag": "Disclosed",
+      "summary": "Zero direct flows to/from Tornado Cash ETH pools (12-month window).",
+      "detail": "Measured against Dune-labeled 'okx%' address set. Zero direct flows in either direction.",
+      "sources": [
+        "Dune dashboard: https://dune.com/japneet/vasp-counterparty-register"
+      ],
+      "notes": "Empirical."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Recently strengthened program after enforcement",
+      "disclosure_flag": "Disclosed",
+      "summary": "Post-February 2025 DOJ settlement implemented mandatory global KYC; under DOJ monitor through 2027.",
+      "detail": "Following February 2025 DOJ settlement, OKX implemented mandatory global KYC across all platforms (DOJ specifically cited that OKX historically allowed account creation, fund transfers, and trading WITHOUT KYC completion until November 2022). Post-settlement program under 3-year DOJ monitor through 2027. Public statements confirm comprehensive KYC requirements; specific vendor partnerships less publicly detailed than peers.",
+      "sources": [
+        "DOJ settlement documents February 2025"
+      ],
+      "notes": "Recent severe enforcement was specifically about KYC/AML program failures. Post-settlement remediation is real but recent."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Mixed track record",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2017; no major hack; February 2025 DOJ settlement materially affects this dimension.",
+      "detail": "Founded 2017; operating 9 years. No major customer-funds hack in operating history. February 2025 DOJ settlement materially affects this dimension via the $504M criminal penalty (Dimension 3). Leadership stability: CEO Star Xu has led continuously. Operational infrastructure has scaled to massive volume ($1T+ in US-based transactions per DOJ filings) without major hack incidents.",
+      "sources": [
+        "OKX corporate history",
+        "DOJ filings"
+      ],
+      "notes": "Operationally competent but the AML program failures cited in DOJ settlement are an operational track record concern, not just a regulatory one."
+    }
+  }
+}

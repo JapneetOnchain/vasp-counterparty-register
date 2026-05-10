@@ -1,0 +1,97 @@
+{
+  "entity_id": "tether",
+  "entity_name": "Tether (Tether Holdings Limited / Tether Operations Limited)",
+  "entity_type": "stablecoin_issuer",
+  "year_founded": 2014,
+  "last_verified": "2026-04-29",
+  "dimensions": {
+    "dimension_1_licensing": {
+      "applicable": true,
+      "category": "Limited or partial",
+      "disclosure_flag": "Disclosed (limited)",
+      "summary": "El Salvador DASP license (2025); BVI registration; NOT MiCA-compliant; NOT GENIUS Act-compliant; no US authorization.",
+      "detail": "United States: No US-based regulatory authorization for USDT issuance. USDT is not MiCA-compliant and not authorized for direct distribution to EU residents under the MiCA EMT regime. El Salvador: Tether moved corporate headquarters to El Salvador (2025) following granting of Digital Asset Service Provider (DASP) license under El Salvador's digital asset framework. British Virgin Islands: Historical entity registration. Hong Kong: No SFC virtual asset trading platform license; HKMA stablecoin licensing regime (effective August 2024) has not licensed Tether for HKD-pegged or USD-pegged stablecoin issuance.",
+      "sources": [
+        "https://tether.io/",
+        "El Salvador DASP licensing reporting (multiple sources, 2025)"
+      ],
+      "notes": "Largest stablecoin by market cap (USDT) but materially less regulated than Circle (USDC) or Paxos (USDP/PYUSD) in jurisdictions that matter for institutional counterparty acceptance. The EU MiCA non-compliance is the most consequential gap — major EU exchanges began delisting USDT trading pairs in late 2024 / early 2025 in response to MiCA enforcement."
+    },
+    "dimension_2_travel_rule": {
+      "applicable": true,
+      "category": "Limited disclosed compliance",
+      "disclosure_flag": "Limited disclosure",
+      "summary": "Not a TRUST member; no equivalent institutional Travel Rule signal.",
+      "detail": "Tether is not a TRUST member. Tether's role as issuer (rather than transactional VASP) limits Travel Rule applicability in the same way as Circle and Paxos. However, Tether's broader compliance posture and lack of major-jurisdiction VASP authorization means there is no comparable institutional signal of Travel Rule engagement.",
+      "sources": [
+        "TRUST consortium membership list"
+      ],
+      "notes": "Structural compliance gap relative to Circle and Paxos. Not a Travel Rule violation per se, but the absence of TRUST participation or equivalent institutional signal stands out."
+    },
+    "dimension_3_sanctions_enforcement": {
+      "applicable": true,
+      "category": "Multiple historical enforcement actions, ongoing scrutiny",
+      "disclosure_flag": "Disclosed",
+      "summary": "October 2021 CFTC $41M settlement; February 2021 NYAG $18.5M settlement; ongoing reserve transparency scrutiny.",
+      "detail": "October 2021: CFTC settlement, $41 million penalty for misrepresenting USDT reserve backing (2016-2018). February 2021: NYAG settlement, $18.5 million penalty regarding Bitfinex/Tether reserve commingling. Tether/Bitfinex prohibited from operating in New York. Ongoing public scrutiny regarding reserve composition; Tether shifted from quarterly to 'real-time transparency' reports under sustained pressure. Multiple investigations referenced in DOJ statements (no formal charges as of late 2025/early 2026).",
+      "sources": [
+        "CFTC enforcement record (2021)",
+        "NYAG settlement order (2021)"
+      ],
+      "notes": "Largest stablecoin by market cap with most enforcement-touched history among the three stablecoin issuers in the slice. The reserve transparency questions have been recurring rather than one-off, which is a pattern signal."
+    },
+    "dimension_4_reserve_transparency": {
+      "applicable": true,
+      "category": "Limited but improving transparency",
+      "disclosure_flag": "Disclosed (limited)",
+      "summary": "Quarterly attestations (BDO Italia historically); MARCH 2026 announcement of first-ever Big Four full audit (in progress); NOT MiCA-compliant; NOT GENIUS Act-compliant.",
+      "detail": "Reserve composition: As of Q1 2025, ~$98.5 billion in US Treasury bills (~85% of reserves), plus overnight reverse repurchase agreements, money market funds, and cash deposits. Real-time reserve tracking dashboard on tether.io introduced under regulatory pressure. Attestation cadence: Quarterly attestation reports (BDO Italia historically; BDO continues as attestation provider). Audit status: MATERIAL UPDATE: Tether announced March 2026 that it has hired an unnamed Big Four accounting firm to conduct its first-ever full audit of USDT reserves. As of late April 2026, this audit is in progress; historically Tether had only provided quarterly attestations (not full audits). Custodian disclosure: Limited. Specific banking partners not granularly disclosed in the same way as Circle or Paxos. This is a recurring point of regulatory and analyst criticism. Regulatory framework compliance: NOT MiCA-compliant (USDT excluded from EU exchange offerings starting late 2024 / early 2025). NOT GENIUS Act-compliant under current US framework. El Salvador DASP license (2025) provides primary jurisdictional regulatory standing. Major EU exchanges (Binance, Kraken, Bitstamp) announced USDT delistings in Q1 2025 in response to MiCA enforcement.",
+      "sources": [
+        "https://tether.io/",
+        "https://www.cnbc.com/2026/03/24/circle-stock-craters-as-stablecoin-rival-tether-announces-audit-milestone.html",
+        "CoinLaw 2026 stablecoin transparency report",
+        "AlphaSense Circle/stablecoin primer"
+      ],
+      "notes": "Largest stablecoin by market cap (~$184B per March 2026 reporting) but materially less transparent than Circle or Paxos. The Big Four audit announcement (March 2026) represents a meaningful credibility upgrade if completed; until completed, the transparency gap remains. Categorized as 'Limited but improving' rather than 'Limited' specifically because of the in-progress Big Four audit and the operational shift to real-time reserve tracking. For TradFi counterparty acceptance purposes, Tether remains structurally less acceptable than Circle and Paxos in late 2025/early 2026."
+    },
+    "dimension_5a_sanctioned_addresses": {
+      "applicable": true,
+      "category": "Notable exception — issuer-level mechanism",
+      "disclosure_flag": "Disclosed",
+      "summary": "USDT smart contract IS the entity; sanctions enforcement via Tether freeze function; Tether freeze response slower than Circle.",
+      "detail": "Tether is structurally distinct in this dimension. USDT-denominated funds at OFAC-sanctioned addresses are visible on-chain because USDT is a token contract (not a custodial entity). Tether (the issuer) has the technical ability to freeze USDT at flagged addresses via the contract's blacklist function and has done so in cooperation with OFAC and law enforcement requests. Public reporting suggests Tether has frozen tens of millions of USDT at addresses linked to OFAC sanctions, North Korean DPRK-attributed wallets, and various law enforcement actions over 2023-2025. Tether's freeze response has been characterized as cooperative but slower than Circle's USDC freeze pattern, which is more proactively coordinated with OFAC.",
+      "sources": [
+        "Tether public freeze announcements",
+        "Comparative analysis vs Circle USDC freeze pattern"
+      ],
+      "notes": "Compliance question for Tether under Dimension 5A is not 'did the entity transact with sanctioned addresses' but 'how responsively does the issuer freeze flagged addresses.'"
+    },
+    "dimension_5b_mixer_exposure": {
+      "applicable": false,
+      "notes": "Issuer, not transactor."
+    },
+    "dimension_6_kyc_cdd": {
+      "applicable": true,
+      "category": "Limited public KYC framework disclosure",
+      "disclosure_flag": "Limited disclosure",
+      "summary": "Institutional-only redemption; limited public disclosure of KYC procedures; freezes USDT at flagged addresses but slower response than Circle.",
+      "detail": "Tether does not directly serve retail users; redemption is institutional only. Public disclosure of institutional KYC procedures is materially less detailed than Circle or Paxos. Tether does freeze USDT at flagged addresses (per Dimension 5A note) but the responsiveness pattern is slower and less proactively coordinated than Circle.",
+      "sources": [
+        "Tether public statements on institutional KYC"
+      ],
+      "notes": "Limited public disclosure pattern consistent with Tether's broader transparency posture. Institutional counterparties presumably undergo some form of KYC but specifics are not publicly verifiable."
+    },
+    "dimension_7_operational_track_record": {
+      "applicable": true,
+      "category": "Material historical concerns; current stability",
+      "disclosure_flag": "Disclosed",
+      "summary": "Founded 2014; sustained reserve composition controversy; brief depegging events; consistently honored institutional redemptions; March 2026 Big Four audit announcement.",
+      "detail": "Founded 2014; operating 12 years. Sustained controversy around reserve composition pre-2021 (NYAG settlement). Multiple historical regulatory enforcement actions (Dimension 3). Brief depegging events during market stress (most notable: May 2022 LUNA collapse week, October 2022 brief deviation). Has consistently honored institutional redemptions. Leadership stability: CEO Paolo Ardoino (formerly CTO) since 2023; long Tether/Bitfinex tenure.",
+      "sources": [
+        "Tether corporate history",
+        "Public depegging event analysis"
+      ],
+      "notes": "Operational track record is more controversial than peer issuers' but USDT has consistently functioned at scale. The Big Four audit announcement (March 2026) addresses long-running operational credibility concern."
+    }
+  }
+}
