@@ -33,10 +33,10 @@
       "category": "Material enforcement, resolved",
       "disclosure_flag": "Disclosed",
       "summary": "April 2022 OCC consent order on AML deficiencies; no monetary penalty; consent order terminated 2024.",
-      "detail": "April 2022: OCC consent order issued against Anchorage Digital Bank for AML program deficiencies. No monetary penalty. Anchorage required to remediate program; consent order terminated in 2024 following demonstrated compliance improvements.",
+      "detail": "April 21, 2022: OCC consent order issued against Anchorage Digital Bank for AML program deficiencies. No monetary penalty. Anchorage required to remediate program; consent order officially terminated by OCC on August 21, 2025, following demonstrated compliance improvements.",
       "sources": [
         "OCC public consent order (April 2022)",
-        "Consent order termination (2024)"
+        "Consent order termination August 2025"
       ],
       "notes": "Material because OCC consent orders are serious supervisory actions; mitigated because consent order was terminated and no penalty was assessed. Read as a regulator using its supervisory tools to drive program improvement."
     },
@@ -71,7 +71,7 @@
       "category": "Comprehensive disclosed program",
       "disclosure_flag": "Disclosed",
       "summary": "Federal trust bank-level KYC/AML required by OCC supervision; institutional-only client base.",
-      "detail": "Federal trust bank-level KYC/AML program required by OCC supervision. Institutional-only client base (no retail). Enhanced due diligence for all clients. Sanctions and PEP screening. 2022 OCC consent order specifically addressed earlier AML program deficiencies; post-remediation program audited through consent order termination.",
+      "detail": "Federal trust bank-level KYC/AML program required by OCC supervision. Institutional-only client base (no retail). Enhanced due diligence for all clients. Sanctions and PEP screening.April 2022 OCC consent order specifically addressed earlier AML program deficiencies; post-remediation program audited through consent order termination on August 21, 2025.",
       "sources": [
         "OCC supervision standards"
       ],

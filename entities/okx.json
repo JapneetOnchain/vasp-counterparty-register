@@ -34,12 +34,12 @@
       "category": "Severe enforcement, ongoing monitorship",
       "disclosure_flag": "Disclosed",
       "summary": "February 24, 2025: $504M DOJ settlement; guilty plea to unlicensed money transmission; 3-year DOJ monitor through 2027.",
-      "detail": "February 24, 2025: Aux Cayes Fintech Co. (OKX operator entity) pleaded guilty to operating an unlicensed money transmitting business in violation of US BSA. $504 million penalty ($420.3M forfeiture + $84.4M criminal fine). DOJ identified OKX as facilitating over $5 billion in suspicious transactions; over $1 trillion in US-based transactions while unlicensed (2018-2024). 3-year compliance monitor (DOJ-imposed) through 2027.",
+      "detail": "February 24, 2025: Aux Cayes Fintech Co. (OKX operator entity) pleaded guilty to operating an unlicensed money transmitting business in violation of US BSA. $504 million penalty ($420.3M forfeiture + $84.4M criminal fine). DOJ identified OKX as facilitating over $5 billion in suspicious transactions; over $1 trillion in US-based transactions while unlicensed (2018-2024). Settlement notably did NOT include a government-appointed compliance monitor; OKX voluntarily retained an independent compliance consultant.",
       "sources": [
         "DOJ press release, February 24, 2025",
         "OKX official statement, February 24, 2025"
       ],
-      "notes": "Most recent major exchange criminal plea. The 3-year monitor through 2027 means OKX is currently under active DOJ oversight — paradoxically, this can be read as a positive compliance signal from a counterparty risk perspective for the duration of the monitor."
+      "notes": "Most recent major exchange criminal plea. Most recent major exchange criminal plea. Notably, settlement did not include a government-imposed compliance monitor — distinguishing it from the Binance enforcement structure. OKX voluntarily retained an independent compliance consultant post-settlement."
     },
     "dimension_4_reserve_transparency": {
       "applicable": false,
@@ -72,7 +72,7 @@
       "category": "Recently strengthened program after enforcement",
       "disclosure_flag": "Disclosed",
       "summary": "Post-February 2025 DOJ settlement implemented mandatory global KYC; under DOJ monitor through 2027.",
-      "detail": "Following February 2025 DOJ settlement, OKX implemented mandatory global KYC across all platforms (DOJ specifically cited that OKX historically allowed account creation, fund transfers, and trading WITHOUT KYC completion until November 2022). Post-settlement program under 3-year DOJ monitor through 2027. Public statements confirm comprehensive KYC requirements; specific vendor partnerships less publicly detailed than peers.",
+      "detail": "Following February 2025 DOJ settlement, OKX implemented mandatory global KYC across all platforms (DOJ specifically cited that OKX historically allowed account creation, fund transfers, and trading WITHOUT KYC completion until November 2022). Post-settlement program under voluntary compliance consultant engagement, not government-imposed monitor. Public statements confirm comprehensive KYC requirements; specific vendor partnerships less publicly detailed than peers.",
       "sources": [
         "DOJ settlement documents February 2025"
       ],
