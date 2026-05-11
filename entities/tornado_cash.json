@@ -9,7 +9,7 @@
       "applicable": true,
       "category": "No identifiable major-jurisdiction authorization (by design)",
       "disclosure_flag": "Not applicable — decentralized smart contract protocol",
-      "summary": "OFAC sanctions vacated March 2025; co-founder Roman Storm convicted August 2025; no corporate issuer to license.",
+      "summary": "OFAC sanctions vacated March 2025; co-founder Roman Storm partial conviction August 2025 (one count; jury deadlocked on more serious charges); no corporate issuer to license.",
       "detail": "United States: Tornado Cash smart contracts were OFAC-sanctioned August 8, 2022. Sanctions were vacated by court ruling in Van Loon v. Department of Treasury (Fifth Circuit) and Tornado Cash addresses were officially DELISTED from the OFAC SDN list on March 21, 2025.Co-founder Roman Storm convicted August 6, 2025 on one count of conspiracy to operate an unlicensed money transmitting business; jury deadlocked on the two more serious charges (conspiracy to commit money laundering and conspiracy to violate sanctions). Defense filed motion for acquittal October 2025; sentencing pending. European Union: No corporate issuer to license. Protocol use within EU jurisdictions subject to general MiCA and AML rules. Decentralized governance: Protocol governance via TORN token holders; no centralized issuer or operator following 2023 OFAC enforcement actions and DAO restructuring.",
       "sources": [
         "OFAC SDN list delisting confirmation, March 21, 2025",
